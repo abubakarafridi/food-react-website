@@ -1,0 +1,38 @@
+.hero-container {
+  background: url('../assets/backgroundImage.jpg');
+  height: 70vh;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero-container div {
+  margin-top: 20px;
+}
+
+.hero-container input {
+  margin-right: 10px;
+  width: 310px;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+.hero-container button {
+    padding: 13px 22px;
+    background-color: #04aa5d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    transition: background-color 0.3s ease;
+}
+
+.hero-container button:hover {
+    background-color: #039e5a;
+}
