@@ -1,21 +1,17 @@
 .hero-container {
   background: url('../assets/backgroundImage.jpg');
   height: 70vh;
+  width: 100%;
   background-position: center;
   background-size: cover;
   display: flex;
   justify-content: center;
-  flex-direction: column;
   align-items: center;
-}
-
-.hero-container div {
-  margin-top: 20px;
 }
 
 .hero-container input {
   margin-right: 10px;
-  width: 310px;
+  min-width: 30vw;
   padding: 12px;
   border: none;
   border-radius: 5px;
